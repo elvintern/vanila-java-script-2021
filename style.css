@@ -1,0 +1,55 @@
+body {
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+    font-family: 'Arvo', serif; 
+
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+#clock {
+    font-size: 100px;
+    font-family: 'Arvo', serif;
+    color: black;
+    text-shadow: rgb(238, 255, 0) 5px 0 10px;
+    margin-top: 150px;
+}
+
+#day {
+    font-size: 40px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+#weather {
+    font-size: 20px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+#greeting {
+    text-shadow: #FC0 1px 0 10px;
+}
+
+#todo-list {
+    font-size: 30px;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.quote {
+    font-size: 25px;
+    text-shadow: #FC0 1px 0 10px;
+    margin-top: 100px;
+}
+
+.author {
+    text-shadow: #FC0 1px 0 10px;
+}
